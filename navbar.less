@@ -1,0 +1,70 @@
+/*! author anovsiradj <anov.siradj22@gmail.com> | version 20180816 */
+
+.navbar-darknature {
+	color: @theme-darken;
+  background-color: @theme;
+  border-color: @theme-darken;
+  .navbar-brand {
+    &,
+    &:hover,
+    &:focus {
+    	color: @theme-darken;
+    }
+  }
+  .navbar-nav {
+    > li > a,
+    > .open > a,
+    > .active > a {
+      color: @theme-lighten;
+      background-color: @theme;
+      &:hover,
+      &:focus {
+        color: @theme-darken;
+        background-color: @theme-lighten;
+      }
+    }
+  }
+  .dropdown-menu {
+  	&,
+  	> li > a {
+  		color: @theme-lighten;
+  		background-color: @theme;
+  	}
+  	> li > a:focus,
+  	> li > a:hover {
+  		color: @theme-darken;
+  		background-color: @theme-lighten;
+  	}
+  	.divider {
+  		background-color: @theme-darken;
+  	}
+  }
+  .navbar-form {
+  	.form-control,
+  	.form-control::placeholder,
+  	.btn {
+  		color: @theme-lighten;
+  		background-color: @theme;
+  		border-color: @theme;
+  		box-shadow: none;
+  	}
+  	.form-control:focus {
+  		border-bottom-color: @theme-lighten;
+  	}
+  	.btn:hover,.btn:focus,.btn:active {
+  		color: @theme-darken;
+  		background-color: @theme-lighten;
+  		border-color: @theme-lighten;
+  	}
+  }
+  .navbar-toggle {
+    border-color: @theme-lighten;
+    &:hover,
+    &:focus {
+      background-color: @theme-darken;
+    }
+    .icon-bar {
+      background-color: @theme-lighten;
+    }
+  }
+}
