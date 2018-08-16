@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "@anovsiradj/bs3-navbar",
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "jquery": "^3.3.1",
-    "less": "^3.8.1"
+    "bootstrap": "~3",
+    "jquery": "~3",
+    "less": "*"
   },
   "devDependencies": {},
   "author": "anovsiradj (Mayendra Costanov) <anov.siradj22@gmail.com>",
